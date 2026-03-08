@@ -1,12 +1,12 @@
 :root {
-    --primary-maroon: #8b261e;
-    --primary-maroon-dark: #6a1a14;
-    --primary-orange: #f26b24;
-    --primary-orange-light: #f89a65;
+    --primary-maroon: #0b4f6c; /* Deep Teal */
+    --primary-maroon-dark: #073a52; /* Darker Teal */
+    --primary-orange: #cca550; /* Muted Gold */
+    --primary-orange-light: #e0c279; /* Lighter Gold */
     --text-dark: #1f2937;
     --text-light: #4b5563;
     --bg-white: #ffffff;
-    --bg-light: #fdfaf9;
+    --bg-light: #f4f8f9; /* Subtle Teal-tinted white */
     --bg-gray: #f3f4f6;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --border-radius: 12px;
@@ -102,18 +102,18 @@ ul {
 .btn-primary {
     background: linear-gradient(135deg, var(--primary-maroon), var(--primary-maroon-dark));
     color: var(--bg-white);
-    box-shadow: 0 4px 15px rgba(139, 38, 30, 0.3);
+    box-shadow: 0 4px 15px rgba(11, 79, 108, 0.3);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(139, 38, 30, 0.4);
+    box-shadow: 0 6px 20px rgba(11, 79, 108, 0.4);
 }
 
 .btn-secondary {
     background: var(--primary-orange);
     color: var(--bg-white);
-    box-shadow: 0 4px 15px rgba(242, 107, 36, 0.3);
+    box-shadow: 0 4px 15px rgba(204, 165, 80, 0.3);
 }
 
 .btn-secondary:hover {
@@ -234,7 +234,7 @@ nav a:hover {
     right: -50px;
     width: 300px;
     height: 300px;
-    background: radial-gradient(circle, rgba(242, 107, 36, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(204, 165, 80, 0.1) 0%, transparent 70%);
     border-radius: 50%;
 }
 
@@ -335,7 +335,7 @@ nav a:hover {
 .specialist-badge .icon-box {
     width: 50px;
     height: 50px;
-    background: rgba(139, 38, 30, 0.1);
+    background: rgba(11, 79, 108, 0.1);
     color: var(--primary-maroon);
     border-radius: 50%;
     display: flex;
@@ -382,7 +382,7 @@ nav a:hover {
 .service-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--box-shadow);
-    border-color: rgba(242, 107, 36, 0.2);
+    border-color: rgba(204, 165, 80, 0.2);
 }
 
 .service-card::before {
@@ -405,7 +405,7 @@ nav a:hover {
 .service-icon {
     width: 80px;
     height: 80px;
-    background: rgba(139, 38, 30, 0.05);
+    background: rgba(11, 79, 108, 0.05);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -447,7 +447,7 @@ nav a:hover {
 
 /* Trust & Authority / Info */
 .authority {
-    background: linear-gradient(135deg, rgba(139, 38, 30, 0.03), rgba(242, 107, 36, 0.03));
+    background: linear-gradient(135deg, rgba(11, 79, 108, 0.03), rgba(204, 165, 80, 0.03));
 }
 
 .auth-wrapper {
@@ -496,7 +496,7 @@ nav a:hover {
 .feat-icon {
     width: 40px;
     height: 40px;
-    background: rgba(242, 107, 36, 0.1);
+    background: rgba(204, 165, 80, 0.1);
     color: var(--primary-orange);
     display: flex;
     justify-content: center;
